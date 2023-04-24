@@ -1,0 +1,194 @@
+.specific_movie_detail {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-right: auto;
+
+
+    /* margin-top: 5px; */
+
+}
+
+.movie_heading_detail {
+    display: flex;
+    /* flex-direction: ; */
+    /* height: fit-content; */
+    padding-top: 2rem;
+
+}
+
+h4,
+h5 {
+    margin: 0px;
+}
+
+.movie_poster_container {
+    padding-right: 1rem;
+}
+
+.movie_poster_container img {
+    width: 12rem;
+    border-radius: 15px;
+}
+
+.left_portion {
+    height: fit-content;
+}
+
+.right_portion {
+    /* display: flex; */
+    height: 12rem;
+    /* padding: 1.5rem 2rem; */
+    padding-left: 2rem;
+    padding-bottom: 0rem;
+
+
+}
+
+.right_portion .upper_lower_container {
+    display: flex;
+    flex-direction: column;
+    /* flex: 50%; */
+    justify-content: space-between;
+}
+
+
+.movie_title {
+    /* padding: 1.5rem 0rem; */
+}
+
+.movie_title h4 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.movie_genere,
+.movie_duration {
+    padding: 0.45rem 0rem;
+}
+
+.movie_genere h5,
+.movie_duration h5 {
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+    color: grey;
+
+}
+
+.play_button_container {
+    display: flex;
+    margin-bottom: 0px;
+    width: 22rem;
+    min-width: 12rem;
+
+
+}
+
+.play_button_container {
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+}
+
+
+.watch_now {
+    background-color: #4dc796f2;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0.42rem;
+}
+
+.watch_now h4 {
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.watch_later {
+    color: #4dc796f2;
+    border: solid 1px #4dc796f2;
+    padding: 0.5rem 2rem;
+    border-radius: 0.42rem;
+    height: fit-content;
+}
+
+.watch_later {
+    margin: 0px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.movie_details_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.movie_detail p {
+    width: 90%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media only screen and (max-width: 1300px) {
+    .play_button_container {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+
+    }
+
+    .watch_now,
+    .watch_later {
+
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+        padding-left: 20%;
+        padding-right: 20%;
+        width: 60%;
+        margin-top: 10%;
+        /* margin-bottom: 5rem; */
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .specific_movie_detail{
+        padding-left: 0px;
+    }
+    .right_portion{
+        padding-left: 0px;
+    }
+    .specific_movie_detail {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .movie_heading_detail {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .movie_text_details {
+        justify-content: center;
+
+        padding: 0px;
+
+        text-align: center;
+    }
+
+    .play_button_container {
+        /* width: 100%; */
+        justify-content: center;
+        text-align: center;
+    }
+
+}
